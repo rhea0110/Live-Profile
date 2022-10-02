@@ -7,7 +7,7 @@ const Certificates = () => {
      <Head>
         <title>Certificates</title>
         </Head>
-    <section className="bg-gradient-to-b from-gray-700 via-gray-900 to-black w-full h-full overflow-auto pb-24">
+    <section className="bg-conic-to-b from-white via-sky-500 to-sky-500 w-full h-full overflow-auto pb-24">
       <h1 className="text-[#D891EF] text-center text-4xl pt-6">Certificates</h1>
       <div className="pt-8 px-8 overflow-auto ">
         <div>

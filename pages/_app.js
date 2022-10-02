@@ -10,11 +10,11 @@ function MyApp({ Component, pageProps }) {
         tabs1={"Home"}
         tabs2={"Internships"}
         tabs3={"Certificates"}
-        tabs4={"Practices"}
-        tabs5={"Resume"}
-        tabs7={"Trainings"}
+        tabs4={"Competitons"}
+        tabs5={"Practices"}
         tabs6={"Awards"}
-        tabs8={"Competitons"}
+        tabs7={"Trainings"}
+        tabs8={"Resume"}
       />
       <Component {...pageProps} />
     </>

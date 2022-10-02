@@ -9,10 +9,14 @@ const Home = () => {
       <Head>
         <title>Home</title>
       </Head>
-      <section className="bg-gradient-to-b from-gray-700 via-gray-900 to-black w-full min-h-screen overflow-auto py-5">
+      <section className="bg-conic-to-b from-white via-sky-500 to-sky-500 w-full min-h-screen overflow-auto py-5">
         <div className="flex flex-grow">
           <div className="h-72 w-64 px-8 pt-8">
-            <img src="/rhea1322.png" alt="myImgae" className="rounded-md" />
+            <img
+              src="/rhea1322.png"
+              alt="myImgae"
+              className="rounded-md object-cover"
+            />
           </div>
           <div className="w-full flex flex-col lg:flex-row">
             <div className="pt-8 px-10 text-xl text-gray-100 md:text-2xl ">
@@ -56,7 +60,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <hr className="mt-10" />
+        <hr className="mt-10 border-[#157DEC]" />
         <h1 className="text-[#D891EF] text-center text-4xl pt-6">
           Academic Details
         </h1>
@@ -150,7 +154,7 @@ const Home = () => {
             </table>
           </div>
         </div>
-        <hr className="mt-12" />
+        <hr className="mt-12  border-[#157DEC]" />
         <div className="overflow-auto ">
           <h1 className="text-[#D891EF] text-center text-4xl pt-6">
             Skills and Tools
@@ -253,7 +257,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <hr className="mt-12" />
+        <hr className="mt-12  border-[#157DEC]" />
         <div className="px-8">
           <h1 className="px-8 pt-8 text-[#D891EF] text-center text-4xl ">
             {" "}

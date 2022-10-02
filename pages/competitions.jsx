@@ -8,7 +8,7 @@ const Competitions = () => {
       <Head>
         <title>Competitions</title>
       </Head>
-      <section className="bg-gradient-to-b from-gray-700 via-gray-900 to-black w-full overflow-auto py-5">
+      <section className="bg-conic-to-b from-white via-sky-500 to-sky-500 w-full overflow-auto py-5">
         <h1 className="text-[#D891EF] text-center text-4xl pt-6">
           Competitions
         </h1>
@@ -153,7 +153,7 @@ const Competitions = () => {
                   <td className="border border-[#D891EF] text-white text-xl text-center py-2 px-3">
                     2<sup>nd</sup>
                   </td>
-                 
+
                   <td className="border border-[#D891EF] text-white text-center  py-2 px-3">
                     October, 2019
                   </td>
