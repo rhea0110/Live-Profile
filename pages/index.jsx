@@ -9,7 +9,7 @@ const Home = () => {
       <Head>
         <title>Home</title>
       </Head>
-      <section className="bg-conic-to-b from-white via-sky-500 to-sky-500 w-full min-h-screen overflow-auto py-5">
+      <section className="bg-black w-full min-h-screen overflow-auto py-5">
         <div className="flex flex-grow">
           <div className="h-72 w-64 px-8 pt-8">
             <img

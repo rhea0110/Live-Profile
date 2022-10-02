@@ -8,7 +8,7 @@ const Internships = () => {
       <Head>
         <title>Internships</title>
       </Head>
-      <section className="bg-conic-to-b from-white via-sky-500 to-sky-500 w-full overflow-auto py-5">
+      <section className="bg-black w-full overflow-auto py-5">
         <h1 className="text-[#D891EF] text-center text-4xl pt-6">
           Internship Details
         </h1>
@@ -73,12 +73,8 @@ const Internships = () => {
                   </td>
                   <td className="border border-[#D891EF] text-white py-2 px-3 text-left">
                     <ol type="1">
-                      <li className="border-b-2">
-                        GitHub Projects
-                      </li>
-                      <li className="border-b-2">
-                        Jira Software
-                      </li>
+                      <li className="border-b-2">GitHub Projects</li>
+                      <li className="border-b-2">Jira Software</li>
                       <li className="border-b-2">GitHub</li>
                       <li className="">Git</li>
                     </ol>
@@ -114,12 +110,8 @@ const Internships = () => {
                   </td>
                   <td className="border border-[#D891EF] text-white text-left py-2 px-3">
                     <ol type="1">
-                      <li className="border-b-2">
-                        TailwindCSS
-                      </li>
-                      <li className="border-b-2">
-                        TypeScript
-                      </li>
+                      <li className="border-b-2">TailwindCSS</li>
+                      <li className="border-b-2">TypeScript</li>
                       <li className="">ReactJS</li>
                     </ol>
                   </td>

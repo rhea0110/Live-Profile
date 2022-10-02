@@ -5,7 +5,7 @@ const Navbar = (props) => {
   return (
     <>
       <div className="w-full md:auto md:static  h-[8vh]"></div>
-      <div className="fixed top-0 left-0 w-full bg-white z-[2] h-[60px] bg-gradient-to-b from-blue-700 via-blue-800 to-gray-900 px-5 md:flex ">
+      <div className="fixed top-0 left-0 w-full z-[2] h-[60px] bg-black px-5 md:flex ">
         {/*  <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -22,49 +22,49 @@ const Navbar = (props) => {
           </svg> */}
 
         <Link href="/">
-          <button className="ml-3 mt-2 sm:flex text-white  text-4xl font-bold">
+          <button className="ml-3 mt-2 sm:flex text-[#D891EF]  text-4xl font-bold">
             {props.name}
           </button>
         </Link>
         <div className="sm:flex ml-auto w-fit gap-x-5">
           <Link href="/">
-            <button className=" text-white text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white ">
+            <button className=" text-[#D891EF] text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white ">
               {props.tabs1}
             </button>
           </Link>
           <Link href="internships">
-            <button className="  text-white text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white ">
+            <button className="  text-[#D891EF] text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white ">
               {props.tabs2}
             </button>
           </Link>
 
           <Link href="certificates">
-            <button className="  text-white text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white">
+            <button className="  text-[#D891EF] text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white">
               {props.tabs3}
             </button>
           </Link>
           <Link href="competitions">
-            <button className="  text-white text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white">
+            <button className="  text-[#D891EF] text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white">
               {props.tabs4}
             </button>
           </Link>
           <Link href="practices">
-            <button className="  text-white text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white">
+            <button className="  text-[#D891EF] text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white">
               {props.tabs5}
             </button>
           </Link>
           <Link href="awards">
-            <button className="  text-white text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white">
+            <button className="  text-[#D891EF] text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white">
               {props.tabs6}
             </button>
           </Link>
           <Link href="trainings">
-            <button className="  text-white text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-whitefocus-within:underline ">
+            <button className="  text-[#D891EF] text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-whitefocus-within:underline ">
               {props.tabs7}
             </button>
           </Link>
           <Link href="resume">
-            <button className="  text-white text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white">
+            <button className="  text-[#D891EF] text-lg font-semibold hover:underline focus:underline hover:text-white focus:text-white">
               {props.tabs8}
             </button>
           </Link>

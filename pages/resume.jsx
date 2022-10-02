@@ -8,7 +8,7 @@ const Resume = () => {
         <title>Resume</title>
       </Head>
       <div>
-        <section className="bg-conic-to-b from-white via-sky-500 to-sky-500 w-full overflow-auto py-5">
+        <section className="bg-black w-full overflow-auto py-5">
           <h1 className="text-[#D891EF] text-center text-4xl pt-6">Resume</h1>
           <div className="px-8 pt-32 flex justify-center items-center animate-bounce">
             <a href="https://drive.google.com/drive/folders/1oSM564-ijW00EJNbjqMi4wkdZW7TvoB6?usp=sharing">
