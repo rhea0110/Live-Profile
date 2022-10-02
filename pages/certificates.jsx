@@ -36,17 +36,17 @@ const Certificates = () => {
                 <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                   The Complete JavaScript Course 2022: From Zero to Expert
                 </td>
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                   Udemy
                 </td>
-                <td className="border border-[#D891EF] text-white text-center py-2  whitespace-nowrap mx-auto">
+                <td className="border border-[#D891EF] text-white text-center py-2  mx-auto">
                   <a href="https://www.udemy.com/certificate/UC-a31b880d-55d2-42f3-9b2e-bd9fb6f682f5/">
                     <text className="text-[#D891EF] underline font-bold animate-pulse ">
                       Verify here!
                     </text>
                   </a>
                 </td>
-                <td className="border border-[#D891EF] text-white text-center whitespace-nowrap py-8 flex items-center justify-center align-senter">
+                <td className="border border-[#D891EF] text-white text-center py-8 flex items-center justify-center align-senter">
                   <a href="/uc.png">
                     <img
                       className="scale-100 hover:scale-125 ease-in duration-500"
@@ -61,20 +61,20 @@ const Certificates = () => {
                 </td>
               </tr>
               <tr className="border text-white">
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                   JavaScript Essential Training
                 </td>
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                   LinkedIn Learning
                 </td>
-                <td className="border border-[#D891EF] text-white text-center py-2  whitespace-nowrap mx-auto">
+                <td className="border border-[#D891EF] text-white text-center py-2  mx-auto">
                   <a href="https://www.linkedin.com/learning/certificates/bd10939418c2915a1416579ff455e3509e10901cdc3fc9b9454efa56e88f7c18?trk=share_certificate">
                     <text className="text-[#D891EF] underline font-bold animate-pulse ">
                       Verify here!
                     </text>
                   </a>
                 </td>
-                <td className="border border-[#D891EF] text-white text-center whitespace-nowrap py-8 flex items-center justify-center align-senter">
+                <td className="border border-[#D891EF] text-white text-center py-8 flex items-center justify-center align-senter">
                   <a href="/js.png">
                     <img
                       className="scale-100 hover:scale-125 ease-in duration-500"
@@ -89,13 +89,13 @@ const Certificates = () => {
                 </td>
               </tr>
               <tr className="border border-[#D891EF] text-white">
-                <td className=" py-2 border border-[#D891EF] text-white text-center whitespace-nowrap px-3">
+                <td className=" py-2 border border-[#D891EF] text-white text-center px-3">
                   HTML Essential Training
                 </td>
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                   LinkedIn Learning
                 </td>
-                <td className="border border-[#D891EF] text-white text-center py-2  whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] text-white text-center py-2  px-3">
                   {" "}
                   <a href="https://www.linkedin.com/learning/certificates/778fb0b33ea5ff3d9dbd6d54fe6369849f0aac38ebe917b79d8827e8571fdf12?trk=share_certificate">
                     <text className="text-[#D891EF] underline font-bold animate-pulse ">
@@ -119,13 +119,13 @@ const Certificates = () => {
               </tr>
 
               <tr className="border border-[#D891EF] text-white">
-                <td className=" py-2 border border-[#D891EF] text-white text-center whitespace-nowrap px-3">
+                <td className=" py-2 border border-[#D891EF] text-white text-center px-3">
                   JavaScript - Basics
                 </td>
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                   HackerRank
                 </td>
-                <td className="border border-[#D891EF] text-white text-center py-2  whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] text-white text-center py-2  px-3">
                   <a href="https://www.hackerrank.com/certificates/3d22bb8f0be6">
                     <text className="text-[#D891EF] underline font-bold animate-pulse ">
                       Verify here!
@@ -147,13 +147,13 @@ const Certificates = () => {
                 </td>
               </tr>
               <tr className="border border-[#D891EF] text-white">
-                <td className=" py-2 border border-[#D891EF] text-white text-center whitespace-nowrap px-3">
+                <td className=" py-2 border border-[#D891EF] text-white text-center px-3">
                   Java - Basics
                 </td>
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                   HackerRank
                 </td>
-                <td className="border border-[#D891EF] text-white text-center py-2  whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] text-white text-center py-2  px-3">
                   <a href=" https://www.hackerrank.com/certificates/76122d8af239">
                     <text className="text-[#D891EF] underline font-bold animate-pulse ">
                       Verify here!
@@ -175,13 +175,13 @@ const Certificates = () => {
                 </td>
               </tr>
               <tr className="border border-[#D891EF] text-white">
-                <td className=" py-2 border border-[#D891EF] text-white text-center whitespace-nowrap px-3">
+                <td className=" py-2 border border-[#D891EF] text-white text-center px-3">
                   CSS Essential Training
                 </td>
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                   LinkedIn Learning
                 </td>
-                <td className="border border-[#D891EF] text-white text-center py-2 whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] text-white text-center py-2 px-3">
                   {" "}
                   <a href="https://www.linkedin.com/learning/certificates/78b83a8fe9ebe504b999e15f275e9a3fcfe34429c39e53e2d47a37d01ccaa5dd?trk=share_certificate">
                     <text className="text-[#D891EF] underline font-bold animate-pulse  ">

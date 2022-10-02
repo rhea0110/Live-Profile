@@ -27,11 +27,11 @@ const Practices = () => {
             </thead>
             <tbody className="border text-white">
               <tr className="border text-white">
-                <td className="border border-[#D891EF] py-2 text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2 text-white text-center  px-3">
                   GitHub
                 </td>
 
-                <td className="border border-[#D891EF] py-2 text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2 text-white text-center  px-3">
                    <div className="w-full flex justify-center items-center gap-x-5">
                     <a
                       href="
@@ -57,11 +57,11 @@ const Practices = () => {
                 </td>
               </tr>
               <tr className="border border-[#D891EF] text-white">
-                <td className=" py-2 border border-[#D891EF] text-white text-center whitespace-nowrap px-3">
+                <td className=" py-2 border border-[#D891EF] text-white text-center  px-3">
                   HackerRank
                 </td>
               
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center  px-3">
                    <div className="w-full flex justify-center items-center gap-x-5">
                     <a
                       href="
@@ -88,11 +88,11 @@ const Practices = () => {
                 </td>
               </tr>
               <tr className="border text-white">
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center  px-3">
                   CodeChef
                 </td>
               
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center  px-3">
                    <div className="w-full flex justify-center items-center gap-x-5">
                     <a
                       href="
@@ -119,10 +119,10 @@ const Practices = () => {
                 </td>
               </tr>
               <tr className="border border-[#D891EF] text-white">
-                <td className=" py-2 border border-[#D891EF] text-white text-center whitespace-nowrap px-3">
+                <td className=" py-2 border border-[#D891EF] text-white text-center  px-3">
                   LeetCode
                 </td>
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center  px-3">
                        <div className="w-full flex justify-center items-center gap-x-5">
                     <a
                       href="
@@ -150,11 +150,11 @@ const Practices = () => {
                 </td>
               </tr>{" "}
               <tr className="border text-white">
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center  px-3">
                   HackerEarth
                 </td>
               
-                <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                <td className="border border-[#D891EF] py-2  text-white text-center  px-3">
                    <div className="w-full flex justify-center items-center gap-x-5">
                     <a
                       href="

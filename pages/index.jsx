@@ -14,7 +14,7 @@ const Home = () => {
           <div className="h-72 w-64 px-8 pt-8">
             <img src="/rhea1322.png" alt="myImgae" className="rounded-md" />
           </div>
-          <div className="w-full">
+          <div className="w-full flex flex-col lg:flex-row">
             <div className="pt-8 px-10 text-xl text-gray-100 md:text-2xl ">
               Greetings,
               <p className="mt-4">
@@ -271,7 +271,7 @@ const Home = () => {
             </a>
           </div>
 
-          <div className="py-4 w-full text-center text-xl text-gray-100 md:text-2xl whitespace-nowrap">
+          <div className="py-4 w-full text-center text-xl text-gray-100 md:text-2xl ">
             Please click on the icon above to get redirected to my
             <span className="text-[#D891EF] animate-pulse">
               <a href="https://www.linkedin.com/in/rhea-jain-2462a3189/">

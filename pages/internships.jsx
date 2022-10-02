@@ -39,10 +39,10 @@ const Internships = () => {
               </thead>
               <tbody className="border text-white">
                 <tr className="border text-white">
-                  <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                  <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                     Product Intern
                   </td>
-                  <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                  <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                     <div className="pb-2 pl-6 animate-pulse">
                       <a href="https://caravel.tech/about">
                         <img
@@ -56,10 +56,10 @@ const Internships = () => {
                     </div>
                     <a href="https://caravel.tech/about">CaravelTech</a>
                   </td>
-                  <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                  <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                     September 1, 2022
                   </td>
-                  <td className="border border-[#D891EF] py-2  text-red-500 animate-none text-center whitespace-nowrap px-3">
+                  <td className="border border-[#D891EF] py-2  text-red-500 animate-none text-center px-3">
                     Present
                   </td>
                   <td className="border border-[#D891EF] py-2  text-white text-left px-3">
@@ -73,22 +73,22 @@ const Internships = () => {
                   </td>
                   <td className="border border-[#D891EF] text-white py-2 px-3 text-left">
                     <ol type="1">
-                      <li className="border-b-2 whitespace-nowrap">
+                      <li className="border-b-2">
                         GitHub Projects
                       </li>
-                      <li className="border-b-2 whitespace-nowrap">
+                      <li className="border-b-2">
                         Jira Software
                       </li>
-                      <li className="border-b-2 whitespace-nowrap">GitHub</li>
-                      <li className=" whitespace-nowrap">Git</li>
+                      <li className="border-b-2">GitHub</li>
+                      <li className="">Git</li>
                     </ol>
                   </td>
                 </tr>
                 <tr className="border border-[#D891EF] text-white">
-                  <td className=" py-2 border border-[#D891EF] text-white text-center whitespace-nowrap px-3">
+                  <td className=" py-2 border border-[#D891EF] text-white text-center px-3">
                     SDE Intern
                   </td>
-                  <td className="border border-[#D891EF] py-2  text-white text-center whitespace-nowrap px-3">
+                  <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                     <div className="pb-2 pl-6 animate-pulse">
                       <a href="https://caravel.tech/about">
                         <img
@@ -102,10 +102,10 @@ const Internships = () => {
                     </div>
                     <a href="https://caravel.tech/about">CaravelTech</a>
                   </td>
-                  <td className="border border-[#D891EF] text-white text-center py-2  whitespace-nowrap px-3">
+                  <td className="border border-[#D891EF] text-white text-center py-2  px-3">
                     July 8, 2022
                   </td>
-                  <td className="border border-[#D891EF] text-white text-center py-2  whitespace-nowrap px-3">
+                  <td className="border border-[#D891EF] text-white text-center py-2  px-3">
                     August 31, 2022
                   </td>
                   <td className="border border-[#D891EF] text-white text-left py-2 px-3">
@@ -114,13 +114,13 @@ const Internships = () => {
                   </td>
                   <td className="border border-[#D891EF] text-white text-left py-2 px-3">
                     <ol type="1">
-                      <li className="border-b-2 whitespace-nowrap">
+                      <li className="border-b-2">
                         TailwindCSS
                       </li>
-                      <li className="border-b-2 whitespace-nowrap">
+                      <li className="border-b-2">
                         TypeScript
                       </li>
-                      <li className=" whitespace-nowrap">ReactJS</li>
+                      <li className="">ReactJS</li>
                     </ol>
                   </td>
                 </tr>

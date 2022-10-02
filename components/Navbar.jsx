@@ -4,7 +4,7 @@ import React from "react";
 const Navbar = (props) => {
   return (
     <>
-      <div className="w-full h-[8vh]"></div>
+      <div className="w-screen h-[8vh]"></div>
       <div className="fixed top-0 left-0 w-full bg-white z-[2] h-[60px] bg-conic-to-r from-gray-900 via-gray-100 to-gray-900 px-5">
         {/*  <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ const Navbar = (props) => {
             {props.name}
           </button>
         </Link>
-        <div className="flex flex-row-reverse -mt-[32px] gap-x-5">
+        <div className="flex flex-col lg:flex-row-reverse  min-w-full -mt-[32px] gap-x-5">
           <Link href="resume">
             <button className="text-transparent  bg-clip-text bg-gradient-to-l from-blue-900 to-purple-800 text-lg font-semibold hover:underline hover:text-[#F02285]">
               {props.tabs5}
