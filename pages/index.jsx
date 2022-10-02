@@ -21,15 +21,24 @@ const Home = () => {
                 <div className="text-[#D891EF] mb-1 underline">
                   Technical Introduction
                 </div>
-                I aspire to be an ace <span className="text-[#D891EF]">Product Manager</span> in quick time. I am also
-                aware of the journey for becoming one. As such, I am honing my
-                skills as a <span className="text-[#D891EF]">Software Development Engineer</span> currently. In my
-                internship, I am meticulously working on <span className="text-[#D891EF]">Front End technologies</span>
+                I aspire to be an ace{" "}
+                <span className="text-[#D891EF]">Product Manager</span> in quick
+                time. I am also aware of the journey for becoming one. As such,
+                I am honing my skills as a{" "}
+                <span className="text-[#D891EF]">
+                  Software Development Engineer
+                </span>{" "}
+                currently. In my internship, I am meticulously working on{" "}
+                <span className="text-[#D891EF]">Front End technologies </span>
                 in the field of Web Development. Working as a Product Intern in
                 this internship, I am getting the desired exposure of looking at
-                the <span className="text-[#D891EF]">3Ds</span> of <span className="text-[#D891EF]">Product Management</span>. I also understand <span className="text-[#D891EF]">Jira</span>, <span className="text-[#D891EF]">Git</span> and
-                <span className="text-[#D891EF]"> GitHub</span>. Going forward, I{"'"}d like to take up challenging tasks
-                in my career and satisfy my craving for learning.
+                the <span className="text-[#D891EF]">3Ds</span> of{" "}
+                <span className="text-[#D891EF]">Product Management</span>. I
+                also understand <span className="text-[#D891EF]">Jira</span>,{" "}
+                <span className="text-[#D891EF]">Git</span> and
+                <span className="text-[#D891EF]"> GitHub</span>. Going forward,
+                I{"'"}d like to take up challenging tasks in my career and
+                satisfy my craving for learning.
               </p>
               <p className="mt-4">
                 <div className="text-[#D891EF] mb-1 underline">
@@ -209,7 +218,7 @@ const Home = () => {
           <div className=" flex justify-center items-center h-full flex-row w-full gap-12 pt-8 px-8">
             <div className="flex flex-col">
               <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                Data Structures & Algorithms
+                DS and Algorithms
               </div>
               <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
                 Git and GitHub
@@ -226,14 +235,15 @@ const Home = () => {
             </div>
             <div className="flex flex-col">
               <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                Product Management Tools
+                Java 8 and Above
               </div>
               <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                TailwindCSS Framework
+                Jira Software
               </div>
               <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                Java 8 & Above
+                TailwindCSS
               </div>
+
               <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
                 JavaScript
               </div>

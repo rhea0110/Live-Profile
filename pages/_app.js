@@ -12,8 +12,9 @@ function MyApp({ Component, pageProps }) {
         tabs3={"Certificates"}
         tabs4={"Practices"}
         tabs5={"Resume"}
+        tabs7={"Trainings"}
         tabs6={"Awards"}
-        tabs7={"Competitons"}
+        tabs8={"Competitons"}
       />
       <Component {...pageProps} />
     </>

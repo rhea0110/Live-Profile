@@ -32,7 +32,12 @@ const Navbar = (props) => {
               {props.tabs5}
             </button>
           </Link>
-         
+          <Link href="trainings">
+            <button className="text-transparent  bg-clip-text bg-gradient-to-l from-blue-900 to-purple-800 text-lg font-semibold hover:underline hover:text-[#F02285]">
+              {props.tabs7}
+            </button>
+          </Link>
+
           <Link href="awards">
             <button className="text-transparent  bg-clip-text bg-gradient-to-l from-blue-900 to-purple-800 text-lg font-semibold hover:underline hover:text-[#F02285]">
               {props.tabs6}
@@ -45,7 +50,7 @@ const Navbar = (props) => {
           </Link>
           <Link href="competitions">
             <button className="text-transparent  bg-clip-text bg-gradient-to-l from-blue-900 to-purple-800 text-lg font-semibold hover:underline hover:text-[#F02285]">
-              {props.tabs7}
+              {props.tabs8}
             </button>
           </Link>
           <Link href="certificates">
