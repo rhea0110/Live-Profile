@@ -37,6 +37,8 @@ const Practices = () => {
                         href="
                   https://github.com/rhea0110
                   "
+                        rel="noreferrer"
+                        target="_blank"
                       >
                         <img
                           className="rounded-full"
@@ -49,6 +51,8 @@ const Practices = () => {
 
                       <a
                         href="https://github.com/rhea0110"
+                        rel="noreferrer"
+                        target="_blank"
                         className="underline text-[#D891EF] animate-pulse"
                       >
                         See Profile!
@@ -68,6 +72,8 @@ const Practices = () => {
                     https://www.hackerrank.com/j_rhea0110
                   
                   "
+                        rel="noreferrer"
+                        target="_blank"
                       >
                         <img
                           className="rounded-full"
@@ -79,6 +85,8 @@ const Practices = () => {
                       </a>
                       <a
                         href="https://www.hackerrank.com/j_rhea0110"
+                        rel="noreferrer"
+                        target="_blank"
                         className="underline text-[#D891EF] animate-pulse"
                       >
                         See Profile!
@@ -98,6 +106,8 @@ const Practices = () => {
                   https://www.codechef.com/users/rheajain0110
                   
                   "
+                        rel="noreferrer"
+                        target="_blank"
                       >
                         <img
                           className="rounded-full"
@@ -109,6 +119,8 @@ const Practices = () => {
                       </a>
                       <a
                         href="https://www.codechef.com/users/rheajain0110"
+                        rel="noreferrer"
+                        target="_blank"
                         className="underline text-[#D891EF] animate-pulse"
                       >
                         See Profile!
@@ -128,6 +140,8 @@ const Practices = () => {
          
                   
                   "
+                        rel="noreferrer"
+                        target="_blank"
                       >
                         <img
                           className="rounded-full"
@@ -139,6 +153,8 @@ const Practices = () => {
                       </a>
                       <a
                         href="https://leetcode.com/rhea0110/"
+                        rel="noreferrer"
+                        target="_blank"
                         className="underline text-[#D891EF] animate-pulse"
                       >
                         See Profile!
@@ -158,6 +174,8 @@ const Practices = () => {
                   https://www.hackerearth.com/@j.rhea0110
                                     
                   "
+                        rel="noreferrer"
+                        target="_blank"
                       >
                         <img
                           className="rounded-full"
@@ -169,6 +187,8 @@ const Practices = () => {
                       </a>
                       <a
                         href="https://www.hackerearth.com/@j.rhea0110"
+                        rel="noreferrer"
+                        target="_blank"
                         className="underline text-[#D891EF] animate-pulse"
                       >
                         See Profile!

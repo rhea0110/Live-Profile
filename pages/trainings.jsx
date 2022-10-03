@@ -38,6 +38,8 @@ const Trainings = () => {
                     <a
                       className="animate-pulse"
                       href="https://codequotient.com/profile"
+                      rel="noreferrer"
+                      target="_blank"
                     >
                       CodeQuotient
                     </a>
@@ -66,6 +68,8 @@ const Trainings = () => {
                   <td className="border border-[#D891EF] text-[#D891EF] text-center py-3 px-3">
                     <a
                       href="https://codequotient.com/profile "
+                      rel="noreferrer"
+                      target="_blank"
                       className="animate-pulse"
                     >
                       CodeQuotient

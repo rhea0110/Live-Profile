@@ -10,18 +10,18 @@ const Home = () => {
         <title>Home</title>
       </Head>
       <section className="bg-black w-full min-h-screen overflow-auto py-5">
-        <div className="flex flex-grow">
-          <div className="h-72 w-64 px-8 pt-8">
+        <div className="flex flex-wrap">
+          <div className="w-60 lg:w-[20%] px-8 pt-8">
             <img
               src="/rhea1322.png"
               alt="myImgae"
               className="rounded-md object-cover"
             />
           </div>
-          <div className="w-full flex flex-col lg:flex-row">
+          <div className="w-full lg:w-[80%] flex flex-col lg:flex-row">
             <div className="pt-8 px-10 text-xl text-gray-100 md:text-2xl ">
               Greetings,
-              <p className="mt-4">
+              <div className="mt-4">
                 <div className="text-[#D891EF] mb-1 underline">
                   Technical Introduction
                 </div>
@@ -43,8 +43,8 @@ const Home = () => {
                 <span className="text-[#D891EF]"> GitHub</span>. Going forward,
                 I{"'"}d like to take up challenging tasks in my career and
                 satisfy my craving for learning.
-              </p>
-              <p className="mt-4">
+              </div>
+              <div className="mt-4">
                 <div className="text-[#D891EF] mb-1 underline">
                   The kind of person I am
                 </div>
@@ -56,11 +56,11 @@ const Home = () => {
                 success for myself, but, I want to do so much for my parents
                 when I become successful. I also wish to contribute to the
                 society when I succeed.
-              </p>
+              </div>
             </div>
           </div>
         </div>
-        <hr className="mt-10 border-[#157DEC]" />
+        <hr className="mt-12 border-[#157DEC]" />
         <h1 className="text-[#D891EF] text-center text-4xl pt-6">
           Academic Details
         </h1>
@@ -264,7 +264,11 @@ const Home = () => {
             Social Portfolio
           </h1>
           <div className="w-full pt-8 object-center flex justify-center items-center animate-pulse">
-            <a href="https://www.linkedin.com/in/rhea-jain-2462a3189/">
+            <a
+              href="https://www.linkedin.com/in/rhea-jain-2462a3189/"
+              rel="noreferrer"
+              target="_blank"
+            >
               {" "}
               <img
                 src={"/li.png"}
@@ -278,7 +282,11 @@ const Home = () => {
           <div className="py-4 w-full text-center text-xl text-gray-100 md:text-2xl ">
             Please click on the icon above to get redirected to my
             <span className="text-[#D891EF] animate-pulse">
-              <a href="https://www.linkedin.com/in/rhea-jain-2462a3189/">
+              <a
+                href="https://www.linkedin.com/in/rhea-jain-2462a3189/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 {" "}
                 LinkedIn{" "}
               </a>
