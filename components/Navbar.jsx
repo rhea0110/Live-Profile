@@ -102,6 +102,15 @@ const Navbar = (props) => {
               {props.tabs8}
             </button>
           </Link>
+          <Link href="newprojects">
+            <button
+              className={`text-red-500 animate-pulse underline text-lg mx-2 font-semibold hover:underline  hover:text-white ${
+                router.asPath == "/newprojects" && "text-white underline"
+              } `}
+            >
+              {props.tabs9}
+            </button>
+          </Link>
         </div>
       </div>
     </>
