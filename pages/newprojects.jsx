@@ -9,7 +9,7 @@ const NewProject = () => {
       <Head>
         <title>New Project</title>
       </Head>
-      <div className="w-full flex-col justify-center items-center flex p-20 h-screen bg-black">
+      <div className="w-full flex-col justify-center items-center flex p-20 h-full bg-black">
         <div>
           <h1 className="w-full h-full text-white font-mono text-5xl justify-center items-center flex">
             {"Thankyou for watching my project!".toUpperCase()}
