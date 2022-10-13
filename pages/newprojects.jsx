@@ -10,18 +10,13 @@ const NewProject = () => {
         <title>New Project</title>
       </Head>
       <div className="w-full flex-col justify-center items-center flex p-20 h-full bg-black">
-        <div>
-          <h1 className="w-full h-full text-white font-mono text-5xl justify-center items-center flex">
-            {"Thankyou for watching my project!".toUpperCase()}
-          </h1>
-        </div>
-        <div className=" mt-12 text-white font-mono text-xl ">
-          {"Click on the link to visit my another project! ".toUpperCase()}
+        <div className=" mt-12 text-3xl text-white font-mono  ">
+          {"Please click on the link to visit my next project! "}
           <a
-            className="text-red-500 text-xl underline"
+            className="text-red-500 text-3xl underline"
             href="https://rheanetclone.netlify.app/"
           >
-            Netflix clone by Rhea 
+            {"Netflix clone by Rhea"}
           </a>
         </div>
 

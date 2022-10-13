@@ -73,7 +73,7 @@ const Internships = () => {
                     Present
                   </td>
                   <td className="border border-[#D891EF] py-2  text-white text-left px-3">
-                    I am managing 4 products currently which include 3 - web
+                    I am managing 4 products currently which include 3 web
                     products and 1 mobile app product. My role is to understand
                     our client{"'"}s need to provide the best solution and act
                     as a communicator between the 3D{"'"}s - Design -
