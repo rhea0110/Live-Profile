@@ -40,11 +40,11 @@ const Skills = () => {
       },
     ];
     return (
-      <div className="w-full h-full flex text-white flex-grow gap-x-12 items-center justify-center">
+      <div className="w-full h-full flex text-white flex-col lg:flex-row gap-x-12 items-center justify-center">
         {stack.map((show, index) => (
           <div
             key={index}
-            className="flex  flex-col items-center justify-center "
+            className="flex flex-col items-center justify-center "
           >
             <img
               src={`${show.src}.png`}
