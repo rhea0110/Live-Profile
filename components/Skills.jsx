@@ -23,7 +23,7 @@ const Skills = () => {
         src: "java",
       },
       {
-        title: "TailwindCSS",
+        title: "Tailwind CSS",
         src: "tail",
       },
       {
