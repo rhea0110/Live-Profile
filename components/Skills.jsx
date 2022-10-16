@@ -40,7 +40,7 @@ const Skills = () => {
       },
     ];
     return (
-      <div className="w-full h-full flex text-white flex-grow gap-x-9 items-center justify-center">
+      <div className="w-full h-full flex text-white flex-grow gap-x-12 items-center justify-center">
         {stack.map((show, index) => (
           <div
             key={index}
