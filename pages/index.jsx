@@ -2,6 +2,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
+import Skills from "../components/Skills";
 
 const Home = () => {
   return (
@@ -155,109 +156,16 @@ const Home = () => {
           </div>
         </div>
         <hr className="mt-12  border-[#157DEC]" />
-        <div className="overflow-auto ">
+        <div >
           <h1 className="text-[#D891EF] text-center text-4xl pt-6">
             Skills and Tools
           </h1>
-          {/*  <div>
-          <div className="px-8 pt-8 w-full overflow-auto ">
-            <table className="border overflow-auto border-[#D891EF] text-white text-center w-full">
-              <thead>
-                <tr>
-                  <th className="border border-[#D891EF] text-[#D891EF] text-lg h-[56px]">
-                    Technical Proficiency
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="h-[500px] pb-5">
-                <tr>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    CSS 3.0
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    JavaScript
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    ReactJS Library
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    Git and GitHub
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    Data Structures and Algorithms
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    TailwindCSS Framework
-                  </td>
-                </tr>{" "}
-                <tr>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    Java 8 and Above
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    TypeScript
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    HTML 5.0
-                  </td>
-                </tr>{" "}
-              </tbody>
-            </table>
-          </div>
-        </div> */}
-          <div className=" flex justify-center items-center h-full flex-row w-full gap-12 pt-8 px-8">
-            <div className="flex flex-col">
-              <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                DS and Algorithms
-              </div>
-              <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                Git and GitHub
-              </div>
-              <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                TypeScript
-              </div>
-              <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                ReactJS
-              </div>
-              <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                CSS 3
-              </div>
-            </div>
-            <div className="flex flex-col">
-              <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                Java 8 and Above
-              </div>
-              <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                Jira Software
-              </div>
-              <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                TailwindCSS
-              </div>
-
-              <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                JavaScript
-              </div>
-              <div className="border border-[#D891EF] text-white py-3 px-8 text-center ">
-                HTML 5
-              </div>
-            </div>
+          {/*Skillset*/}
+          <div className="flex  pt-10 w-full px-8 flex-grow">
+            <Skills />
           </div>
         </div>
-        <hr className="mt-12  border-[#157DEC]" />
+        <hr className="mt-11 border-[#157DEC]" />
         <div className="px-8">
           <h1 className="px-8 pt-8 text-[#D891EF] text-center text-4xl ">
             {" "}
