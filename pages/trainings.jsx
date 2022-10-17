@@ -8,7 +8,7 @@ const Trainings = () => {
       <Head>
         <title>Trainings</title>
       </Head>
-      <section className="bg-black w-full overflow-auto py-5">
+      <section className="bg-black w-full min-h-[92vh] overflow-auto py-5">
         <h1 className="text-[#D891EF] text-center text-4xl pt-6">
           Trainings and Workshops
         </h1>

@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div className="bg-black">
       <Navbar
         // image={"/rhea0110.png"}
         name={"Rhea Jain"}
@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
         tabs9={"New"}
       />
       <Component {...pageProps} />
-    </>
+    </div>
   );
 }
 

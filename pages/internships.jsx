@@ -8,11 +8,11 @@ const Internships = () => {
       <Head>
         <title>Internships</title>
       </Head>
-      <section className="bg-black w-full overflow-auto py-5">
+      <section className="bg-black w-full min-h-[92vh] overflow-auto pt-5 ">
         <h1 className="text-[#D891EF] text-center text-4xl pt-6">
           Internship Details
         </h1>
-        <div className="pt-8 px-8 overflow-auto ">
+        <div className="pt-8 px-8  overflow-auto">
           <div>
             <table className="table w-full h-52">
               <thead className="border border-[#D891EF] text-white h-[50px]">

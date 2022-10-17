@@ -7,22 +7,7 @@ const Navbar = (props) => {
   return (
     <>
       <div className="w-full md:auto md:static  h-[15vh] lg:h-[8vh]"></div>
-      <div className="fixed top-0 left-0 w-full z-[2] min-h-[60px] bg-black px-5 md:flex ">
-        {/*  <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 -1 24 24"
-            strokeWidth="2"
-            stroke="#6C2DC7"
-            className="w-15 h-14"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
-            />
-          </svg> */}
-
+      <div className="fixed top-0 left-0 w-full z-[2] min-h-[60px] bg-black px-5 md:flex">
         <Link href="/">
           <button className="ml-3 mt-2 sm:flex text-[#D891EF] text-4xl font-bold">
             {props.name}
@@ -100,7 +85,7 @@ const Navbar = (props) => {
               } `}
             >
               {props.tabs8}
-            </button>
+          </button>
           </Link>
           <Link href="newprojects">
             <button

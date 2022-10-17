@@ -9,8 +9,8 @@ const NewProject = () => {
       <Head>
         <title>New Project</title>
       </Head>
-      <div className="w-full flex-col justify-center items-center min-h-screen flex p-20 h-full bg-black">
-        <div className=" mt-12 text-3xl text-white font-mono  ">
+      <div className="w-full flex-col justify-center items-center min-h-[92vh] overflow-y-hidden flex bg-black">
+        <div className="text-3xl text-white font-mono  ">
           {"Please click on the link to visit my next project! "}
           <a
             className="text-red-500 text-3xl underline"
@@ -19,8 +19,6 @@ const NewProject = () => {
             {"Netflix clone by Rhea"}
           </a>
         </div>
-
-        
       </div>
     </>
   );
