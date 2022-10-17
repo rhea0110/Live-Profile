@@ -11,20 +11,12 @@ const Skills = () => {
         src: "css3",
       },
       {
-        title: "JavaScript",
-        src: "javascript",
-      },
-      {
-        title: "Jira",
-        src: "jira",
-      },
-      {
-        title: "Java",
-        src: "java",
-      },
-      {
         title: "Tailwind CSS",
         src: "tail",
+      },
+      {
+        title: "JavaScript",
+        src: "javascript",
       },
       {
         title: "TypeScript",
@@ -38,13 +30,21 @@ const Skills = () => {
         title: "Git & GitHub",
         src: "git",
       },
+      {
+        title: "Jira",
+        src: "jira",
+      },
+      {
+        title: "Java",
+        src: "java",
+      },
     ];
     return (
       <div className="w-full h-full flex text-white flex-col gap-y-5 lg:flex-row gap-x-12 items-center justify-center">
         {stack.map((show, index) => (
           <div
             key={index}
-            className="flex flex-col items-center  justify-center "
+            className="flex flex-col items-center justify-center "
           >
             <img
               src={`${show.src}.png`}
