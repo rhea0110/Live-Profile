@@ -8,7 +8,7 @@ const Resume = () => {
         <title>Resume</title>
       </Head>
       <div>
-        <section className="bg-black w-full overflow-auto py-5">
+        <section className="bg-black w-full h-full overflow-auto py-5">
           <h1 className="text-[#D891EF] text-center text-4xl pt-6">Resume</h1>
           <div className="px-8 pt-32 flex justify-center items-center animate-bounce">
             <a

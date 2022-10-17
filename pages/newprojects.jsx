@@ -9,7 +9,7 @@ const NewProject = () => {
       <Head>
         <title>New Project</title>
       </Head>
-      <div className="w-full flex-col justify-center items-center flex p-20 h-full bg-black">
+      <div className="w-full flex-col justify-center items-center min-h-screen flex p-20 h-full bg-black">
         <div className=" mt-12 text-3xl text-white font-mono  ">
           {"Please click on the link to visit my next project! "}
           <a
