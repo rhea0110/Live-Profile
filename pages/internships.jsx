@@ -42,8 +42,8 @@ const Internships = () => {
                   <td className="border border-[#D891EF] py-2  text-white text-center px-3">
                     Product Intern
                   </td>
-                  <td className="border border-[#D891EF] py-2  text-white text-center px-3">
-                    <div className="pb-2 pl-6 animate-pulse">
+                  <td className="border border-[#D891EF] py-2  text-blue-600  text-center px-3">
+                    <div className="pb-2 pl-6  animate-pulse">
                       <a
                         href="https://caravel.tech/about"
                         rel="noreferrer"
@@ -94,9 +94,13 @@ const Internships = () => {
                   <td className=" py-2 border border-[#D891EF] text-white text-center px-3">
                     SDE Intern
                   </td>
-                  <td className="border border-[#D891EF] py-2  text-white text-center px-3">
+                  <td className="border border-[#D891EF] py-2  text-blue-600  text-center px-3">
                     <div className="pb-2 pl-6 animate-pulse">
-                      <a href="https://caravel.tech/about"  rel="noreferrer" target="_blank">
+                      <a
+                        href="https://caravel.tech/about"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
                         <img
                           className="rounded-full"
                           src={"/caravelpng.png"}
@@ -106,7 +110,13 @@ const Internships = () => {
                         />
                       </a>
                     </div>
-                    <a href="https://caravel.tech/about"  rel="noreferrer" target="_blank">CaravelTech</a>
+                    <a
+                      href="https://caravel.tech/about"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      CaravelTech
+                    </a>
                   </td>
                   <td className="border border-[#D891EF] text-white text-center py-2  px-3">
                     July 8, 2022

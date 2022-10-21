@@ -12,15 +12,26 @@ const Home = () => {
       </Head>
       <section className="bg-black w-full min-h-screen overflow-auto py-5">
         <div className="flex flex-wrap">
-          <div className="w-60 lg:w-[20%] px-8 pt-8">
+          <div className="w-60 flex flex-col gap-y-5 lg:w-[20%] px-8 pt-8">
             <img
               src="/rhea1322.png"
               alt="myImgae"
               className="rounded-md object-cover"
             />
+            <a
+              href="/rheajain.pdf"
+              rel="noreferrer"
+              target="_blank"
+              download={true}
+            >
+              <button className="items-center justify-center text-blue-600 border w-full rounded-md flex gap-x-3 flex-wrap py-2">
+                <img src="/download.png" alt="myImgae" className="w-7" />
+                <div className="text-xl">Download Resume</div>
+              </button>
+            </a>
           </div>
           <div className="w-full lg:w-[80%] flex flex-col lg:flex-row">
-            <div className="pt-8 px-10 text-xl text-gray-100 md:text-2xl ">
+            <div className="pt-8 px-10 text-md text-gray-100 md:text-2xl ">
               Greetings,
               <div className="mt-4">
                 <div className="text-[#D891EF] mb-1 underline">
@@ -156,7 +167,7 @@ const Home = () => {
           </div>
         </div>
         <hr className="mt-12  border-[#157DEC]" />
-        <div >
+        <div>
           <h1 className="text-[#D891EF] text-center text-4xl pt-6">
             Skills and Tools
           </h1>
@@ -189,7 +200,7 @@ const Home = () => {
 
           <div className="py-4 w-full text-center text-xl text-gray-100 md:text-2xl ">
             Please click on the icon above to get redirected to my
-            <span className="text-[#D891EF] animate-pulse">
+            <span className="text-blue-600 animate-pulse">
               <a
                 href="https://www.linkedin.com/in/rhea-jain-2462a3189/"
                 rel="noreferrer"

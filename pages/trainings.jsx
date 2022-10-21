@@ -34,7 +34,7 @@ const Trainings = () => {
                     SuperCoders Specialization Training
                   </td>
 
-                  <td className=" border border-[#D891EF] py-3  text-[#D891EF] animate-none text-center  px-3">
+                  <td className=" border border-[#D891EF] py-3  text-blue-600  animate-none text-center  px-3">
                     <a
                       className="animate-pulse"
                       href="https://codequotient.com/profile"
@@ -65,7 +65,7 @@ const Trainings = () => {
                     SuperCoders Training
                   </td>
 
-                  <td className="border border-[#D891EF] text-[#D891EF] text-center py-3 px-3">
+                  <td className="border border-[#D891EF] text-blue-600  text-center py-3 px-3">
                     <a
                       href="https://codequotient.com/profile "
                       rel="noreferrer"

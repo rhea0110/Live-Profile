@@ -78,7 +78,7 @@ const Navbar = (props) => {
               {props.tabs7}
             </button>
           </Link>
-          <Link href="resume">
+         {/*  <Link href="resume">
             <button
               className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/resume" && "text-white underline"
@@ -86,14 +86,14 @@ const Navbar = (props) => {
             >
               {props.tabs8}
           </button>
-          </Link>
-          <Link href="newprojects">
+          </Link> */}
+           <Link href="newprojects">
             <button
               className={`text-red-500 animate-pulse underline text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/newprojects" && "text-white underline"
               } `}
             >
-              {props.tabs9}
+              {props.tabs8}
             </button>
           </Link>
         </div>

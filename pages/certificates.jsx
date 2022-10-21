@@ -47,7 +47,7 @@ const Certificates = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <text className="text-[#D891EF] underline font-bold animate-pulse ">
+                      <text className="text-blue-600  underline font-bold animate-pulse ">
                         Verify here!
                       </text>
                     </a>
@@ -79,7 +79,7 @@ const Certificates = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <text className="text-[#D891EF] underline font-bold animate-pulse ">
+                      <text className="text-blue-600  underline font-bold animate-pulse ">
                         Verify here!
                       </text>
                     </a>
@@ -112,7 +112,7 @@ const Certificates = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <text className="text-[#D891EF] underline font-bold animate-pulse ">
+                      <text className="text-blue-600  underline font-bold animate-pulse ">
                         Verify here!
                       </text>
                     </a>
@@ -145,7 +145,7 @@ const Certificates = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <text className="text-[#D891EF] underline font-bold animate-pulse ">
+                      <text className="text-blue-600  underline font-bold animate-pulse ">
                         Verify here!
                       </text>
                     </a>
@@ -172,8 +172,12 @@ const Certificates = () => {
                     HackerRank
                   </td>
                   <td className="border border-[#D891EF] text-white text-center py-2  px-3">
-                    <a href=" https://www.hackerrank.com/certificates/76122d8af239" rel="noreferrer" target="_blank">
-                      <text className="text-[#D891EF] underline font-bold animate-pulse ">
+                    <a
+                      href=" https://www.hackerrank.com/certificates/76122d8af239"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <text className="text-blue-600  underline font-bold animate-pulse ">
                         Verify here!
                       </text>
                     </a>
@@ -206,7 +210,7 @@ const Certificates = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <text className="text-[#D891EF] underline font-bold animate-pulse  ">
+                      <text className="text-blue-600  underline font-bold animate-pulse  ">
                         Verify here!
                       </text>
                     </a>

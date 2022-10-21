@@ -53,7 +53,7 @@ const Practices = () => {
                         href="https://github.com/rhea0110"
                         rel="noreferrer"
                         target="_blank"
-                        className="underline text-[#D891EF] animate-pulse"
+                        className="underline text-blue-600  animate-pulse"
                       >
                         See Profile!
                       </a>
@@ -87,7 +87,7 @@ const Practices = () => {
                         href="https://www.hackerrank.com/j_rhea0110"
                         rel="noreferrer"
                         target="_blank"
-                        className="underline text-[#D891EF] animate-pulse"
+                        className="underline text-blue-600  animate-pulse"
                       >
                         See Profile!
                       </a>
@@ -121,7 +121,7 @@ const Practices = () => {
                         href="https://www.codechef.com/users/rheajain0110"
                         rel="noreferrer"
                         target="_blank"
-                        className="underline text-[#D891EF] animate-pulse"
+                        className="underline text-blue-600 animate-pulse"
                       >
                         See Profile!
                       </a>
@@ -155,7 +155,7 @@ const Practices = () => {
                         href="https://leetcode.com/rhea0110/"
                         rel="noreferrer"
                         target="_blank"
-                        className="underline text-[#D891EF] animate-pulse"
+                        className="underline text-blue-600 animate-pulse"
                       >
                         See Profile!
                       </a>
@@ -189,7 +189,7 @@ const Practices = () => {
                         href="https://www.hackerearth.com/@j.rhea0110"
                         rel="noreferrer"
                         target="_blank"
-                        className="underline text-[#D891EF] animate-pulse"
+                        className="underline text-blue-600  animate-pulse"
                       >
                         See Profile!
                       </a>
