@@ -24,16 +24,19 @@ const Navbar = (props) => {
             </button>
           </Link>
           <Link href="internships">
-            <button
-              className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline hover:text-white ${
-                router.asPath == "/internships" && "text-white underline"
-              }`}
-            >
-              {props.tabs2}
-            </button>
+            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+              <button
+                className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline hover:text-white ${
+                  router.asPath == "/internships" && "text-white underline"
+                }`}
+              >
+                {props.tabs2}
+              </button>
+            </a>
           </Link>
 
           <Link href="certificates">
+            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
             <button
               className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/certificates" && "text-white underline"
@@ -41,8 +44,11 @@ const Navbar = (props) => {
             >
               {props.tabs3}
             </button>
+            </a>
           </Link>
           <Link href="competitions">
+            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+
             <button
               className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/competitions" && "text-white underline"
@@ -50,8 +56,12 @@ const Navbar = (props) => {
             >
               {props.tabs4}
             </button>
+            </a>
+
           </Link>
           <Link href="practices">
+            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+
             <button
               className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/practices" && "text-white underline"
@@ -59,8 +69,12 @@ const Navbar = (props) => {
             >
               {props.tabs5}
             </button>
+            </a>
+
           </Link>
           <Link href="awards">
+            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+
             <button
               className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/awards" && "text-white underline"
@@ -68,8 +82,12 @@ const Navbar = (props) => {
             >
               {props.tabs6}
             </button>
+            </a>
+
           </Link>
           <Link href="trainings">
+            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+
             <button
               className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/trainings" && "text-white underline"
@@ -77,8 +95,10 @@ const Navbar = (props) => {
             >
               {props.tabs7}
             </button>
+            </a>
+
           </Link>
-         {/*  <Link href="resume">
+          {/*  <Link href="resume">
             <button
               className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/resume" && "text-white underline"
@@ -87,7 +107,9 @@ const Navbar = (props) => {
               {props.tabs8}
           </button>
           </Link> */}
-           <Link href="newprojects">
+          <Link href="newprojects">
+            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+
             <button
               className={`text-red-500 animate-pulse underline text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/newprojects" && "text-white underline"
@@ -95,6 +117,8 @@ const Navbar = (props) => {
             >
               {props.tabs8}
             </button>
+            </a>
+
           </Link>
         </div>
       </div>
