@@ -38,6 +38,10 @@ const Skills = () => {
         title: "Java",
         src: "java",
       },
+      {
+        title: "PLANE",
+        src: "caravelpng",
+      }
     ];
     return (
       <div className="w-full h-full flex text-white flex-col gap-y-5 lg:flex-row gap-x-12 items-center justify-center">

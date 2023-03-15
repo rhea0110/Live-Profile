@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 
@@ -35,7 +35,6 @@ const Practices = () => {
                     <div className="w-full flex justify-center items-center gap-x-5">
                       <a
                         href="
-                  https://github.com/rhea0110
                   "
                         rel="noreferrer"
                         target="_blank"
@@ -69,7 +68,6 @@ const Practices = () => {
                     <div className="w-full flex justify-center items-center gap-x-5">
                       <a
                         href="
-                    https://www.hackerrank.com/j_rhea0110
                   
                   "
                         rel="noreferrer"
@@ -103,7 +101,6 @@ const Practices = () => {
                     <div className="w-full flex justify-center items-center gap-x-5">
                       <a
                         href="
-                  https://www.codechef.com/users/rheajain0110
                   
                   "
                         rel="noreferrer"
@@ -136,7 +133,6 @@ const Practices = () => {
                     <div className="w-full flex justify-center items-center gap-x-5">
                       <a
                         href="
-                  https://leetcode.com/rhea0110/
          
                   
                   "
@@ -171,7 +167,6 @@ const Practices = () => {
                     <div className="w-full flex justify-center items-center gap-x-5">
                       <a
                         href="
-                  https://www.hackerearth.com/@j.rhea0110
                                     
                   "
                         rel="noreferrer"
@@ -204,5 +199,18 @@ const Practices = () => {
     </>
   );
 };
+
+export default Practices;
+ */
+import React from 'react';
+import Profiles from '../components/Profiles';
+
+const Practices = () => {
+  return (
+    <div className="h-full overflow-hidden bg-black items-center justify-center pt-10 w-full px-8 ">
+      <Profiles />
+    </div>
+  );
+}
 
 export default Practices;
