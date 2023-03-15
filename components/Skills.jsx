@@ -40,7 +40,7 @@ const Skills = () => {
       },
       {
         title: "PLANE",
-        src: "caravelpng",
+        src: "logo",
       }
     ];
     return (
