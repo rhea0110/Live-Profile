@@ -9,14 +9,14 @@ const Navbar = (props) => {
       <div className="w-full md:auto md:static  h-[15vh] lg:h-[8vh]"></div>
       <div className="fixed top-0 left-0 w-full z-[2] min-h-[60px] bg-black px-5 md:flex">
         <Link href="/">
-          <button className="ml-3 mt-2 sm:flex text-[#D891EF] text-4xl font-bold">
+          <button className="ml-3 mt-2 sm:flex text-orange-400 text-4xl font-bold">
             {props.name}
           </button>
         </Link>
         <div className="sm:flex ml-auto w-fit gap-x-5">
           <Link href="/">
             <button
-              className={`text-[#D891EF] mx-2 text-lg font-semibold hover:underline hover:text-white ${
+              className={`text-orange-400 mx-2 text-lg font-semibold hover:underline hover:text-white ${
                 router.asPath == "/" && "text-white underline"
               }`}
             >
@@ -26,7 +26,7 @@ const Navbar = (props) => {
           <Link href="internships">
             
               <button
-                className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline hover:text-white ${
+                className={`text-orange-400 text-lg mx-2 font-semibold hover:underline hover:text-white ${
                   router.asPath == "/internships" && "text-white underline"
                 }`}
               >
@@ -38,7 +38,7 @@ const Navbar = (props) => {
           <Link href="certificates">
             
             <button
-              className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
+              className={`text-orange-400 text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/certificates" && "text-white underline"
               }`}
             >
@@ -50,7 +50,7 @@ const Navbar = (props) => {
             
 
             <button
-              className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
+              className={`text-orange-400 text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/competitions" && "text-white underline"
               }`}
             >
@@ -63,7 +63,7 @@ const Navbar = (props) => {
             
 
             <button
-              className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
+              className={`text-orange-400 text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/practices" && "text-white underline"
               } `}
             >
@@ -76,7 +76,7 @@ const Navbar = (props) => {
             
 
             <button
-              className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
+              className={`text-orange-400 text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/awards" && "text-white underline"
               }  `}
             >
@@ -89,7 +89,7 @@ const Navbar = (props) => {
             
 
             <button
-              className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
+              className={`text-orange-400 text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/trainings" && "text-white underline"
               } `}
             >
@@ -100,7 +100,7 @@ const Navbar = (props) => {
           </Link>
           {/*  <Link href="resume">
             <button
-              className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
+              className={`text-orange-400 text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/resume" && "text-white underline"
               } `}
             >

@@ -77,7 +77,7 @@ const Home = () => {
         <hr className="mt-12 border-[#157DEC]" />
 
         <div>
-          <h1 className="text-[#D891EF] text-center text-3xl pt-6">
+          <h1 className="text-orange-400 text-center text-3xl pt-6">
             Skills and Tools
           </h1>
           {/*Skillset*/}
@@ -87,7 +87,7 @@ const Home = () => {
         </div>
         <hr className="mt-11 border-[#157DEC]" />
         <div className="px-8">
-          <h1 className="px-8 pt-8 text-[#D891EF] text-center text-3xl ">
+          <h1 className="px-8 pt-8 text-orange-400 text-center text-3xl ">
             {" "}
             Social Portfolio
           </h1>
