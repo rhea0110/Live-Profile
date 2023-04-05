@@ -6,7 +6,7 @@ const PlaneData = () => {
     return (
       <>
         <div className="flex bg-black relative gap-x-3 flex-row w-full h-full">
-          <img src="logo.png" className="w-10 h-10 rounded-full" />
+          <img src="logo.png" className="w-10 h-10 bg-white rounded-full" />
           <div className="my-auto w-full flex flex-wrap h-full">
             <span className="text-2xl absolute -mt-1.5">Plane</span>
             <span className=" ml-auto flex flex-row gap-x-1">

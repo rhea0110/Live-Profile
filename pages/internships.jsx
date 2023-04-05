@@ -12,7 +12,7 @@ const Internships = () => {
         <title>Internships</title>
       </Head>
       <section className="bg-black w-full min-h-screen overflow-auto pt-5 ">
-        <h1 className="text-[#D891EF] text-center text-4xl pt-3">
+        <h1 className="text-blue-400 text-center text-4xl pt-3">
           Internships & Experience
         </h1>
         <div className="pt-8 px-8 overflow-auto">
