@@ -3,6 +3,9 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import Skills from "../components/Skills";
+import Edu from "../components/Edu";
+
+
 
 const Home = () => {
   return (
@@ -12,7 +15,7 @@ const Home = () => {
       </Head>
       <section className="bg-black w-full min-h-screen overflow-auto py-5">
         <div className="flex flex-wrap">
-          <div className="w-60 flex flex-col gap-y-5 lg:w-[20%] px-8 pt-8">
+          <div className="w-32 flex flex-col gap-y-auto my-auto lg:w-[15%] px-8">
             <img
               src="/rhea1322.png"
               alt="myImgae"
@@ -24,14 +27,14 @@ const Home = () => {
               target="_blank"
               download={true}
             >
-              <button className="items-center justify-center text-blue-600 border w-full rounded-md flex gap-x-3 flex-wrap py-2">
+              <button className="items-center mt-9 justify-center text-blue-600 border  w-full rounded-md flex gap-x-2 py-1.5 flex-wrap">
                 <img src="/download.png" alt="myImgae" className="w-7" />
-                <div className="text-xl">Download Resume</div>
+                <div className="text-xl">Resume</div>
               </button>
             </a>
           </div>
-          <div className="w-full lg:w-[80%] flex flex-col lg:flex-row">
-            <div className="pt-8 px-10 text-md text-gray-100 md:text-2xl ">
+          <div className="w-full lg:w-[80%] flex flex-col text-justify lg:flex-row">
+            <div className="pt-8 px-10 text-gray-100 text-xl">
               Greetings,
               <div className="mt-4">
                 <div className="text-[#D891EF] mb-1 underline">
@@ -50,9 +53,9 @@ const Home = () => {
                 this internship, I am getting the desired exposure of looking at
                 the <span className="text-[#D891EF]">3Ds</span> of{" "}
                 <span className="text-[#D891EF]">Product Management</span>. I
-                also understand <span className="text-[#D891EF]">Jira</span>,{" "}
+                also understand <span className="text-[#D891EF]">Plane</span>,{" "}
                 <span className="text-[#D891EF]">Git</span> and
-                <span className="text-[#D891EF]"> GitHub</span>. Going forward,
+                <span className="text-[#D891EF]">GitHub</span>. Going forward,
                 I{"'"}d like to take up challenging tasks in my career and
                 satisfy my craving for learning.
               </div>
@@ -73,116 +76,23 @@ const Home = () => {
           </div>
         </div>
         <hr className="mt-12 border-[#157DEC]" />
-        <h1 className="text-[#D891EF] text-center text-4xl pt-6">
-          Academic Details
-        </h1>
-        <div className="pt-8 px-8 overflow-auto ">
-          <div>
-            <table className="table w-full h-52">
-              <thead className="border border-[#D891EF] text-white h-[50px]">
-                <tr>
-                  <th className="border border-[#D891EF] text-[#D891EF] text-lg">
-                    Course
-                  </th>
-                  <th className="border border-[#D891EF] text-[#D891EF] text-lg">
-                    Specialization
-                  </th>
-                  <th className="border border-[#D891EF] text-[#D891EF] text-lg">
-                    Institute/College
-                  </th>
-                  <th className="border border-[#D891EF] text-[#D891EF] text-lg">
-                    Board/University
-                  </th>
-                  <th className="border border-[#D891EF] text-[#D891EF] text-lg">
-                    Aggregate %
-                  </th>
-                  <th className="border border-[#D891EF] text-[#D891EF] text-lg">
-                    Batch
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="border text-white">
-                <tr className="border text-white">
-                  <td className="border border-[#D891EF] text-white text-center">
-                    Bachelor of Technology
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    Computer Science & Engineering
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    SSIPMT Raipur
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    CSVTU Bhilai
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    78.24
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    2019 - 2023
-                  </td>
-                </tr>
-                <tr className="border border-[#D891EF] text-white">
-                  <td className="border border-[#D891EF] text-white text-center">
-                    Class XII
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    Science with Mathematics
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    CBSE
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    Delhi Public School, Durg
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    67.20
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    2018 - 2019
-                  </td>
-                </tr>
-                <tr className="border border-[#D891EF] text-white">
-                  <td className="border border-[#D891EF] text-white text-center">
-                    Class X
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    All Subjects
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    CBSE
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    Delhi Public School, Durg
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    74.10
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center">
-                    2016 - 2017
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <hr className="mt-12  border-[#157DEC]" />
+       
         <div>
-          <h1 className="text-[#D891EF] text-center text-4xl pt-6">
+          <h1 className="text-[#D891EF] text-center text-2xl pt-6">
             Skills and Tools
           </h1>
           {/*Skillset*/}
-          <div className="flex  pt-10 w-full px-8 flex-grow">
+          <div className="flex text-xl pt-10 w-full px-8 flex-grow">
             <Skills />
           </div>
         </div>
         <hr className="mt-11 border-[#157DEC]" />
         <div className="px-8">
-          <h1 className="px-8 pt-8 text-[#D891EF] text-center text-4xl ">
+          <h1 className="px-8 pt-8 text-[#D891EF] text-center text-2xl ">
             {" "}
             Social Portfolio
           </h1>
-          <div className="w-full pt-8 object-center flex justify-center items-center animate-pulse">
+          <div className="w-full  pt-8 object-center flex justify-center items-center animate-pulse">
             <a
               href="https://www.linkedin.com/in/rhea-jain-2462a3189/"
               rel="noreferrer"
@@ -198,7 +108,7 @@ const Home = () => {
             </a>
           </div>
 
-          <div className="py-4 w-full text-center text-xl text-gray-100 md:text-2xl ">
+          <div className="py-4 w-full text-xl text-center text-gray-100 ">
             Please click on the icon above to get redirected to my
             <span className="text-blue-600 animate-pulse">
               <a

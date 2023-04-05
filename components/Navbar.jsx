@@ -24,7 +24,7 @@ const Navbar = (props) => {
             </button>
           </Link>
           <Link href="internships">
-            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+            
               <button
                 className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline hover:text-white ${
                   router.asPath == "/internships" && "text-white underline"
@@ -32,11 +32,11 @@ const Navbar = (props) => {
               >
                 {props.tabs2}
               </button>
-            </a>
+            
           </Link>
 
           <Link href="certificates">
-            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+            
             <button
               className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
                 router.asPath == "/certificates" && "text-white underline"
@@ -44,10 +44,10 @@ const Navbar = (props) => {
             >
               {props.tabs3}
             </button>
-            </a>
+            
           </Link>
           <Link href="competitions">
-            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+            
 
             <button
               className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
@@ -56,11 +56,11 @@ const Navbar = (props) => {
             >
               {props.tabs4}
             </button>
-            </a>
+            
 
           </Link>
           <Link href="practices">
-            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+            
 
             <button
               className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
@@ -69,11 +69,11 @@ const Navbar = (props) => {
             >
               {props.tabs5}
             </button>
-            </a>
+            
 
           </Link>
           <Link href="awards">
-            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+            
 
             <button
               className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
@@ -82,11 +82,11 @@ const Navbar = (props) => {
             >
               {props.tabs6}
             </button>
-            </a>
+            
 
           </Link>
           <Link href="trainings">
-            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+            
 
             <button
               className={`text-[#D891EF] text-lg mx-2 font-semibold hover:underline  hover:text-white ${
@@ -95,7 +95,7 @@ const Navbar = (props) => {
             >
               {props.tabs7}
             </button>
-            </a>
+            
 
           </Link>
           {/*  <Link href="resume">
@@ -108,7 +108,7 @@ const Navbar = (props) => {
           </button>
           </Link> */}
           <Link href="newprojects">
-            <a target="_blank" rel="noopener noreferrer" className="link-item my-auto">
+            
 
             <button
               className={`text-red-500 animate-pulse underline text-lg mx-2 font-semibold hover:underline  hover:text-white ${
@@ -117,7 +117,7 @@ const Navbar = (props) => {
             >
               {props.tabs8}
             </button>
-            </a>
+            
 
           </Link>
         </div>

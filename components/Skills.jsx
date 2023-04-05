@@ -39,7 +39,7 @@ const Skills = () => {
         src: "java",
       },
       {
-        title: "PLANE",
+        title: "Plane",
         src: "logo",
       }
     ];
