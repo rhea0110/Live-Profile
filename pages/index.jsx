@@ -35,9 +35,8 @@ const Home = () => {
           </div>
           <div className="w-full lg:w-[80%] flex flex-col text-justify lg:flex-row">
             <div className="pt-8 px-10 text-gray-100 text-xl">
-              Greetings,
               <div className="mt-4">
-                <div className="text-[#D891EF] mb-1 underline">
+                <div className="text-[#D891EF] mb-1 text-[25px] underline">
                   Technical Introduction
                 </div>
                 I aspire to be an ace{" "}
@@ -59,8 +58,8 @@ const Home = () => {
                 I{"'"}d like to take up challenging tasks in my career and
                 satisfy my craving for learning.
               </div>
-              <div className="mt-4">
-                <div className="text-[#D891EF] mb-1 underline">
+              <div className="mt-10">
+                <div className="text-[#D891EF] mb-1 text-[25px] underline">
                   The kind of person I am
                 </div>
                 I am a quick learner. I can easily work in teams, and can also
@@ -78,7 +77,7 @@ const Home = () => {
         <hr className="mt-12 border-[#157DEC]" />
        
         <div>
-          <h1 className="text-[#D891EF] text-center text-2xl pt-6">
+          <h1 className="text-[#D891EF] text-center text-3xl pt-6">
             Skills and Tools
           </h1>
           {/*Skillset*/}
@@ -88,7 +87,7 @@ const Home = () => {
         </div>
         <hr className="mt-11 border-[#157DEC]" />
         <div className="px-8">
-          <h1 className="px-8 pt-8 text-[#D891EF] text-center text-2xl ">
+          <h1 className="px-8 pt-8 text-[#D891EF] text-center text-3xl ">
             {" "}
             Social Portfolio
           </h1>
