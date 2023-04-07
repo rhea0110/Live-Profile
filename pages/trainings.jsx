@@ -140,7 +140,7 @@ const Trainings = () => {
         </div>
         <div className="mt-3 ml-8 w-[70%] text-white text-xl text-justify mb-16">
           <div>
-        This was an amazing 5 in 1 training that included individual trainings on Aptitude, SQL, Java - Intermediate, Personality Development, DBMS. It gave a crisp knowledge of how projects works in an organisation and what skills are implemented while working around them.
+        This was an amazing 5 in 1 training that included individual trainings on Aptitude, SQL, Java - Intermediate, Personality Development, DBMS. It gave a crisp knowledge of how projects works in an organisation and what and how the skills are implemented while working around them.
           </div>
         </div>
       </section>
