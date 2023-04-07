@@ -1,103 +1,150 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Head from "next/head";
+import  Head  from 'next/head';
+import Calendar from "../components/Calendar";
+import Briefcase from "../components/Briefcase"; 
+import Arrow from "../components/Arrow";
+import CodeArrow from "../components/CodeArrow";
 
 const Trainings = () => {
   return (
     <>
       <Head>
-        <title>Trainings</title>
+        <title>Trainings and Workshops</title>
       </Head>
-      <section className="bg-black w-full min-h-[92vh] overflow-auto py-5">
-        <h1 className="text-[#D891EF] text-center text-4xl pt-6">
+      <section className="bg-black w-full h-full pt-8 px-8 overflow-auto pb-24">
+        <h1 className="text-blue-400 text-center text-4xl pt-6">
           Trainings and Workshops
         </h1>
-        <div className="flex flex-col pt-8 px-8 overflow-auto ">
+        <div className="flex bg-black relative gap-x-3 mt-5 flex-row w-full h-full">
+          <img src="cq.jpg" className="w-10 h-10  rounded-full" />
+          <div className="my-auto w-full flex flex-wrap h-full">
+            <span className="text-2xl text-white absolute -mt-1.5">Full Stack Training</span>
+            <span className=" ml-auto text-white flex flex-row gap-x-1">
+              {" "}
+              <Briefcase />
+              Organiser <Arrow /> CodeQuotient 
+            </span>
+          </div>
+        </div>
+        <hr className="mt-[5px] bg-[D891EF]"></hr>
+        <div className="flex gap-x-2 flex-wrap mt-5">
+          <div className="flex text-white flex-row gap-x-2 w-full ">
+            {" "}
+            <CodeArrow />{" "}
+            <span className="text-blue-200 font-bold text-xl">
+              {" "}
+              SuperCoder's Specialization Training{" "}
+            </span>
+            <span className="text-blue-200 flex text-white flex-wrap text-xl"></span>
+            <span className="ml-auto text-white flex gap-x-1">
+              <Calendar /> April, 2022
+            </span>
+          </div>
+        </div>
+        <div className="mt-3 ml-8 w-[70%] text-white text-xl text-justify mb-16">
           <div>
-            <table className="table w-full h-52">
-              <thead className="border border-[#D891EF] text-white h-[50px]">
-                <tr>
-                  <th className="border border-[#D891EF] text-[#D891EF] text-lg">
-                    Training/ Workshop
-                  </th>
-                  <th className="border border-[#D891EF] text-[#D891EF] text-lg">
-                    Organizer
-                  </th>
-                  <th className="border border-[#D891EF] text-[#D891EF] text-lg">
-                    Date
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="border text-white">
-                <tr className="border text-white">
-                  <td className="border border-[#D891EF] py-3  text-white text-center  px-3">
-                    SuperCoders Specialization Training
-                  </td>
-
-                  <td className=" border border-[#D891EF] py-3  text-blue-600 underline  animate-none text-center  px-3">
-                    <a
-                      className="animate-pulse"
-                      href="https://codequotient.com/profile"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      CodeQuotient
-                    </a>
-                  </td>
-                  <td className="border border-[#D891EF] text-white py-3 px-3 text-center">
-                    April 2022
-                  </td>
-                </tr>
-                <tr className="border border-[#D891EF] text-white">
-                  <td className=" py-3 border border-[#D891EF] text-white text-center  px-3">
-                    Campus Recruitment Training
-                  </td>
-
-                  <td className="border border-[#D891EF] text-white text-center py-3 px-3">
-                    Nachiket Joshi Trainings and SSIPMT Raipur
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center py-3 px-3">
-                    April 2022
-                  </td>
-                </tr>
-                <tr className="border border-[#D891EF] text-white">
-                  <td className=" py-3 border border-[#D891EF] text-white text-center  px-3">
-                    SuperCoders Training
-                  </td>
-
-                  <td className="border border-[#D891EF] text-blue-600  underline text-center py-3 px-3">
-                    <a
-                      href="https://codequotient.com/profile "
-                      rel="noreferrer"
-                      target="_blank"
-                      className="animate-pulse"
-                    >
-                      CodeQuotient
-                    </a>
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center py-3 px-3">
-                    February 2022
-                  </td>
-                </tr>
-                <tr className="border border-[#D891EF] text-white">
-                  <td className=" py-3 border border-[#D891EF] text-white text-center  px-3">
-                    ESD Training
-                  </td>
-
-                  <td className="border border-[#D891EF] text-white text-center py-3 px-3">
-                    RPG Foundation
-                  </td>
-                  <td className="border border-[#D891EF] text-white text-center py-3 px-3">
-                    September 2021
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+       Successfully attending a full stack web development specialization 
+       training was an impressive accomplishment that demonstrated my dedication 
+       to learning new skills and advancing my career in web development.
+          </div>
+        </div>
+           <div className="flex bg-black relative gap-x-3 mt-5 flex-row w-full h-full">
+          <img src="cq.jpg" className="w-10 h-10  rounded-full" />
+          <div className="my-auto w-full flex flex-wrap h-full">
+            <span className="text-2xl text-white absolute -mt-1.5">Full Stack Training</span>
+            <span className=" ml-auto text-white flex flex-row gap-x-1">
+              {" "}
+              <Briefcase />
+              Organiser <Arrow /> CodeQuotient
+            </span>
+          </div>
+        </div>
+        <hr className="mt-[5px] bg-[D891EF]"></hr>
+        <div className="flex gap-x-2 flex-wrap mt-5">
+          <div className="flex text-white flex-row gap-x-2 w-full ">
+            {" "}
+            <CodeArrow />{" "}
+            <span className="text-blue-200 font-bold text-xl">
+              {" "}
+              SuperCoder's Training{" "}
+            </span>
+            <span className="text-blue-200 flex text-white flex-wrap text-xl"></span>
+            <span className="ml-auto text-white flex gap-x-1">
+              <Calendar /> February, 2022
+            </span>
+          </div>
+        </div>
+        <div className="mt-3 ml-8 w-[70%] text-white text-xl text-justify mb-16">
+          <div>
+    Successfully attending a full stack web development beginner's 
+       training was an impressive accomplishment that demonstrated my dedication 
+       to learning new skills and advancing my career in web development.
+          </div>
+        </div>
+          <div className="flex bg-black relative gap-x-3 mt-5 flex-row w-full h-full">
+          <img src="apt.png" className="w-10 h-10  rounded-full" />
+          <div className="my-auto w-full flex flex-wrap h-full">
+            <span className="text-2xl text-white absolute -mt-1.5">Campus Recruitment Training</span>
+            <span className=" ml-auto text-white flex flex-row gap-x-1">
+              {" "}
+              <Briefcase />
+              Organiser <Arrow /> Nachiket Joshi Trainings
+            </span>
+          </div>
+        </div>
+        <hr className="mt-[5px] bg-[D891EF]"></hr>
+        <div className="flex gap-x-2 flex-wrap mt-5">
+          <div className="flex text-white flex-row gap-x-2 w-full ">
+            {" "}
+            <CodeArrow />{" "}
+            <span className="text-blue-200 font-bold text-xl">
+              {" "}
+              Aptitude and Communication Training{" "}
+            </span>
+            <span className="text-blue-200 flex text-white flex-wrap text-xl"></span>
+            <span className="ml-auto text-white flex gap-x-1">
+              <Calendar /> April, 2022
+            </span>
+          </div>
+        </div>
+        <div className="mt-3 ml-8 w-[70%] text-white text-xl text-justify mb-16">
+          <div>
+     Successfully attending an aptitude training was an impressive accomplishment that reflected my commitment to enhance my problem-solving and critical thinking skills. 
+          </div>
+        </div>
+         <div className="flex bg-black relative gap-x-3 mt-5 flex-row w-full h-full">
+          <img src="apt.png" className="w-10 h-10  rounded-full" />
+          <div className="my-auto w-full flex flex-wrap h-full">
+            <span className="text-2xl text-white absolute -mt-1.5">ESD Training</span>
+            <span className=" ml-auto text-white flex flex-row gap-x-1">
+              {" "}
+              <Briefcase />
+              Organiser <Arrow /> RPG Foundation
+            </span>
+          </div>
+        </div>
+        <hr className="mt-[5px] bg-[D891EF]"></hr>
+        <div className="flex gap-x-2 flex-wrap mt-5">
+          <div className="flex text-white flex-row gap-x-2 w-full ">
+            {" "}
+            <CodeArrow />{" "}
+            <span className="text-blue-200 font-bold text-xl">
+              {" "}
+              5 in 1 Training for Skill Development{" "}
+            </span>
+            <span className="text-blue-200 flex text-white flex-wrap text-xl"></span>
+            <span className="ml-auto text-white flex gap-x-1">
+              <Calendar /> April, 2022
+            </span>
+          </div>
+        </div>
+        <div className="mt-3 ml-8 w-[70%] text-white text-xl text-justify mb-16">
+          <div>
+        This was an amazing 5 in 1 training that included individual trainings on Aptitude, SQL, Java - Intermediate, Personality Development, DBMS. It gave a crisp knowledge of how projects works in an organisation and what skills are implemented while working around them.
           </div>
         </div>
       </section>
     </>
   );
 };
-
 export default Trainings;
