@@ -16,8 +16,8 @@ const Navbar = (props) => {
         <div className="sm:flex ml-auto w-fit gap-x-5">
           <Link href="/">
             <button
-              className={`text-orange-400 mx-2 text-lg font-semibold hover:underline hover:text-white ${
-                router.asPath == "/" && "text-white underline"
+              className={`text-sky-400 mx-2 text-lg font-semibold hover:underline hover:text-orange-400 ${
+                router.asPath == "/" && "text-orange-400 underline"
               }`}
             >
               {props.tabs1}
@@ -26,8 +26,8 @@ const Navbar = (props) => {
           <Link href="internships">
             
               <button
-                className={`text-orange-400 text-lg mx-2 font-semibold hover:underline hover:text-white ${
-                  router.asPath == "/internships" && "text-white underline"
+                className={`text-sky-400 text-lg mx-2 font-semibold hover:underline hover:text-orange-400 ${
+                  router.asPath == "/internships" && "text-orange-400 underline"
                 }`}
               >
                 {props.tabs2}
@@ -38,8 +38,8 @@ const Navbar = (props) => {
           <Link href="certificates">
             
             <button
-              className={`text-orange-400 text-lg mx-2 font-semibold hover:underline  hover:text-white ${
-                router.asPath == "/certificates" && "text-white underline"
+              className={`text-sky-400 text-lg mx-2 font-semibold hover:underline  hover:text-orange-400 ${
+                router.asPath == "/certificates" && "text-orange-400 underline"
               }`}
             >
               {props.tabs3}
@@ -50,8 +50,8 @@ const Navbar = (props) => {
             
 
             <button
-              className={`text-orange-400 text-lg mx-2 font-semibold hover:underline  hover:text-white ${
-                router.asPath == "/competitions" && "text-white underline"
+              className={`text-sky-400 text-lg mx-2 font-semibold hover:underline  hover:text-orange-400 ${
+                router.asPath == "/competitions" && "text-orange-400 underline"
               }`}
             >
               {props.tabs4}
@@ -63,8 +63,8 @@ const Navbar = (props) => {
             
 
             <button
-              className={`text-orange-400 text-lg mx-2 font-semibold hover:underline  hover:text-white ${
-                router.asPath == "/practices" && "text-white underline"
+              className={`text-sky-400 text-lg mx-2 font-semibold hover:underline  hover:text-orange-400 ${
+                router.asPath == "/practices" && "text-orange-400 underline"
               } `}
             >
               {props.tabs5}
@@ -76,8 +76,8 @@ const Navbar = (props) => {
             
 
             <button
-              className={`text-orange-400 text-lg mx-2 font-semibold hover:underline  hover:text-white ${
-                router.asPath == "/awards" && "text-white underline"
+              className={`text-sky-400 text-lg mx-2 font-semibold hover:underline  hover:text-orange-400 ${
+                router.asPath == "/awards" && "text-orange-400 underline"
               }  `}
             >
               {props.tabs6}
@@ -89,8 +89,8 @@ const Navbar = (props) => {
             
 
             <button
-              className={`text-orange-400 text-lg mx-2 font-semibold hover:underline  hover:text-white ${
-                router.asPath == "/trainings" && "text-white underline"
+              className={`text-sky-400 text-lg mx-2 font-semibold hover:underline  hover:text-orange-400 ${
+                router.asPath == "/trainings" && "text-orange-400 underline"
               } `}
             >
               {props.tabs7}

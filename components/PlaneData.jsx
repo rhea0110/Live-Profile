@@ -8,8 +8,8 @@ const PlaneData = () => {
         <div className="flex bg-black relative gap-x-3 flex-row w-full h-full">
           <img src="logo.png" className="w-10 h-10 bg-white rounded-full" />
           <div className="my-auto w-full flex flex-wrap h-full">
-            <span className="text-2xl absolute -mt-1.5">Plane</span>
-            <span className=" ml-auto flex flex-row gap-x-1">
+            <span className="text-2xl text-white absolute -mt-1.5">Plane</span>
+            <span className=" ml-auto text-white flex flex-row gap-x-1">
               {" "}
               <Calendar />
               October, 2022 - Present{" "}
@@ -23,12 +23,12 @@ const PlaneData = () => {
             <span className="text-blue-200 text-xl">
               Product <span className="text-xl text-orange-300">Intern</span>
             </span>
-            <span className="ml-auto flex gap-x-1">
+            <span className="ml-auto text-white flex gap-x-1">
               <Calendar /> October 15, 2022 - Present
             </span>
           </div>
         </div>
-        <div className="mt-3 ml-8 w-[70%] text-xl text-justify mb-16">
+        <div className="mt-3 ml-8 text-white  w-[70%] text-xl text-justify mb-16">
           <div>
             Working for a startup requires a next level of skillset, which
             includes over-communication, a next-level mindset, and a next-level

@@ -18,8 +18,8 @@ const Certificates = () => {
         <div className="flex bg-black relative gap-x-3 mt-5 flex-row w-full h-full">
           <img src="javascript.png" className="w-10 h-10  rounded-full" />
           <div className="my-auto w-full flex flex-wrap h-full">
-            <span className="text-2xl absolute -mt-1.5">JavaScript Course</span>
-            <span className=" ml-auto flex flex-row gap-x-1">
+            <span className="text-2xl text-white absolute -mt-1.5">JavaScript Course</span>
+            <span className=" ml-auto text-white flex flex-row gap-x-1">
               {" "}
               <Briefcase />
               Issuer <Arrow /> Udemy
@@ -28,20 +28,20 @@ const Certificates = () => {
         </div>
         <hr className="mt-[5px] bg-[D891EF]"></hr>
         <div className="flex gap-x-2 flex-wrap mt-5">
-          <div className="flex flex-row gap-x-2 w-full ">
+          <div className="flex text-white flex-row gap-x-2 w-full ">
             {" "}
             <CodeArrow />{" "}
             <span className="text-blue-200 font-bold text-xl">
               {" "}
               The Complete JavaScript Course 2022: From Zero to Expert{" "}
             </span>
-            <span className="text-blue-200 flex flex-wrap text-xl"></span>
-            <span className="ml-auto flex gap-x-1">
+            <span className="text-blue-200 flex text-white flex-wrap text-xl"></span>
+            <span className="ml-auto text-white flex gap-x-1">
               <Calendar /> June 28, 2022
             </span>
           </div>
         </div>
-        <div className="mt-3 ml-8 w-[70%] text-xl text-justify mb-16">
+        <div className="mt-3 ml-8 w-[70%] text-white text-xl text-justify mb-16">
           <div>
             My experience with this JavaScript course was invaluable in
             expanding my knowledge in web development. Through learning the
@@ -63,8 +63,8 @@ const Certificates = () => {
         <div className="flex bg-black relative gap-x-3 flex-row w-full h-full">
           <img src="javascript.png" className="w-10 h-10  rounded-full" />
           <div className="my-auto w-full flex flex-wrap h-full">
-            <span className="text-2xl absolute -mt-1.5">JavaScript Course</span>
-            <span className=" ml-auto flex flex-row gap-x-1">
+            <span className="text-2xl absolute text-white -mt-1.5">JavaScript Course</span>
+            <span className=" ml-auto text-white flex flex-row gap-x-1">
               {" "}
               <Briefcase />
               Issuer <Arrow /> LinkedIn Learning
@@ -73,7 +73,7 @@ const Certificates = () => {
         </div>
         <hr className="mt-[5px] bg-[D891EF]"></hr>
         <div className="flex gap-x-2 flex-wrap mt-5">
-          <div className="flex flex-row gap-x-2 w-full ">
+          <div className="flex text-white flex-row gap-x-2 w-full ">
             {" "}
             <CodeArrow />{" "}
             <span className="text-blue-200 font-bold text-xl">
@@ -81,12 +81,12 @@ const Certificates = () => {
               JavaScript Essential Training{" "}
             </span>
             <span className="text-blue-200 flex flex-wrap text-xl"></span>
-            <span className="ml-auto flex gap-x-1">
+            <span className="ml-auto flex text-white gap-x-1">
               <Calendar /> May 30, 2022
             </span>
           </div>
         </div>
-        <div className="mt-3 ml-8 w-[70%] text-xl text-justify mb-16">
+        <div className="mt-3 ml-8 text-white w-[70%] text-xl text-justify mb-16">
           <div>
             My introductory JavaScript course has been a fantastic experience
             that taught me the basics of programming. It has also provided me
@@ -107,8 +107,8 @@ const Certificates = () => {
         <div className="flex bg-black relative gap-x-3 flex-row w-full h-full">
           <img src="html5.png" className="w-10 h-10  rounded-full" />
           <div className="my-auto w-full flex flex-wrap h-full">
-            <span className="text-2xl absolute -mt-1.5">HTML Course</span>
-            <span className=" ml-auto flex flex-row gap-x-1">
+            <span className="text-2xl absolute text-white -mt-1.5">HTML Course</span>
+            <span className=" ml-auto text-white flex flex-row gap-x-1">
               {" "}
               <Briefcase />
               Issuer <Arrow /> LinkedIn Learning
@@ -124,13 +124,13 @@ const Certificates = () => {
               HTML Essential Training{" "}
             </span>
             <span className="text-blue-200 flex flex-wrap text-xl"></span>
-            <span className="ml-auto flex gap-x-1">
+            <span className="ml-auto text-white flex gap-x-1">
               <Calendar />
               June 26, 2020
             </span>
           </div>
         </div>
-        <div className="mt-3 ml-8 w-[70%] text-xl text-justify mb-16">
+        <div className="mt-3 ml-8 w-[70%] text-white text-xl text-justify mb-16">
           <div>
             Taking an introductory HTML5 course was a great experience that
             taught me the basics of web development. I learned the fundamentals
@@ -151,10 +151,10 @@ const Certificates = () => {
         <div className="flex bg-black relative gap-x-3 flex-row w-full h-full">
           <img src="javascript.png" className="w-10 h-10  rounded-full" />
           <div className="my-auto w-full flex flex-wrap h-full">
-            <span className="text-2xl absolute -mt-1.5">
+            <span className="text-2xl absolute text-white -mt-1.5">
               JavaScript Assessment
             </span>
-            <span className=" ml-auto flex flex-row gap-x-1">
+            <span className=" ml-auto flex text-white flex-row gap-x-1">
               {" "}
               <Briefcase />
               Issuer <Arrow /> HackerRank
@@ -170,13 +170,13 @@ const Certificates = () => {
               JavaScript (Basics){" "}
             </span>
             <span className="text-blue-200 flex flex-wrap text-xl"></span>
-            <span className="ml-auto flex gap-x-1">
+            <span className="ml-auto flex text-white gap-x-1">
               <Calendar />
               June 26, 2020
             </span>
           </div>
         </div>
-        <div className="mt-3 ml-8 w-[70%] text-xl text-justify mb-16">
+        <div className="mt-3 ml-8 w-[70%] text-white text-xl text-justify mb-16">
           <div>
             Taking a JavaScript basics assessment has been a great opportunity
             to assess my knowledge in programming. The assessment covered
@@ -199,8 +199,8 @@ const Certificates = () => {
         <div className="flex bg-black relative gap-x-3 flex-row w-full h-full">
           <img src="java.png" className="w-10 h-10  rounded-full" />
           <div className="my-auto w-full flex flex-wrap h-full">
-            <span className="text-2xl absolute -mt-1.5">Java Assessment</span>
-            <span className=" ml-auto flex flex-row gap-x-1">
+            <span className="text-2xl absolute text-white -mt-1.5">Java Assessment</span>
+            <span className=" ml-auto text-white flex flex-row gap-x-1">
               {" "}
               <Briefcase />
               Issuer <Arrow /> HackerRank
@@ -209,20 +209,20 @@ const Certificates = () => {
         </div>
         <hr className="mt-[5px] bg-[D891EF]"></hr>
         <div className="flex gap-x-2 flex-wrap mt-5">
-          <div className="flex flex-row gap-x-2 w-full ">
+          <div className="flex flex-row text-white gap-x-2 w-full ">
             {" "}
             <CodeArrow />{" "}
             <span className="text-blue-200 font-bold text-xl">
               Java (Basics){" "}
             </span>
             <span className="text-blue-200 flex flex-wrap text-xl"></span>
-            <span className="ml-auto flex gap-x-1">
+            <span className="ml-auto text-white flex gap-x-1">
               <Calendar />
               December 5, 2021
             </span>
           </div>
         </div>
-        <div className="mt-3 ml-8 w-[70%] text-xl text-justify mb-16">
+        <div className="mt-3 ml-8 w-[70%] text-white text-xl text-justify mb-16">
           <div>
             Taking a Java basics assessment has been an insightful experience
             that allowed me to evaluate my knowledge in programming. The
@@ -245,8 +245,8 @@ const Certificates = () => {
         <div className="flex bg-black relative gap-x-3 flex-row w-full h-full">
           <img src="css3.png" className="w-10 h-10  rounded-full" />
           <div className="my-auto w-full flex flex-wrap h-full">
-            <span className="text-2xl absolute -mt-1.5">CSS Course</span>
-            <span className=" ml-auto flex flex-row gap-x-1">
+            <span className="text-2xl absolute text-white -mt-1.5">CSS Course</span>
+            <span className=" ml-auto text-white flex flex-row gap-x-1">
               {" "}
               <Briefcase />
               Issuer <Arrow /> LinkedIn Learning
@@ -255,20 +255,20 @@ const Certificates = () => {
         </div>
         <hr className="mt-[5px] bg-[D891EF]"></hr>
         <div className="flex gap-x-2 flex-wrap mt-5">
-          <div className="flex flex-row gap-x-2 w-full ">
+          <div className="flex text-white flex-row gap-x-2 w-full ">
             {" "}
             <CodeArrow />{" "}
             <span className="text-blue-200 font-bold text-xl">
              CSS Essential Training{" "}
             </span>
             <span className="text-blue-200 flex flex-wrap text-xl"></span>
-            <span className="ml-auto flex gap-x-1">
+            <span className="ml-auto text-white flex gap-x-1">
               <Calendar />
              June 29, 2020
             </span>
           </div>
         </div>
-        <div className="mt-3 ml-8 w-[70%] text-xl text-justify mb-16">
+        <div className="mt-3 ml-8 w-[70%] text-white text-xl text-justify mb-16">
           <div>
             My introductory CSS course has been a great learning experience that taught me the fundamentals of web styling. With the course, I learned how to use CSS to add visual styles, such as colors, fonts, and layouts, to web pages. It also covered responsive design techniques, enabling me to create websites that adapt to different screen sizes. Overall, the course has helped me establish a strong foundation in CSS, which is an essential skill for anyone interested in web design. You can verify the course by clicking
             <a

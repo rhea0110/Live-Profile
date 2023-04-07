@@ -8,8 +8,8 @@ const InternshipData = () => {
         <div className="flex relative gap-x-3 flex-row w-full h-full">
             <img src="caravelpng.png" className="w-10 h-10 rounded-full" />
             <div className="my-auto w-full flex flex-wrap h-full">
-              <span className="text-2xl absolute -mt-1.5">Caravel Tech</span>
-              <span className=" ml-auto flex flex-row gap-x-1">
+              <span className="text-2xl text-white absolute -mt-1.5">Caravel Tech</span>
+              <span className=" ml-auto text-white flex flex-row gap-x-1">
                 {" "}
                 <Calendar /> June 2022 - October, 2022{" "}
               </span>
@@ -22,13 +22,13 @@ const InternshipData = () => {
             <span className="text-blue-200 text-xl">
               SDE <span className="text-xl text-orange-300">Intern</span>
             </span>
-            <span className="ml-auto flex gap-x-1">
+            <span className="ml-auto text-white flex gap-x-1">
               <Calendar /> July 8, 2022 - August 31, 2022
             </span>
           </div>
         </div>
 
-        <div className="mt-3 ml-8 w-[70%] text-xl text-justify">
+        <div className="mt-3 text-white ml-8 w-[70%] text-xl text-justify">
           <div>
             Let me tell you about the wild ride I had working on an EdTech
             Platform! As a designer, I had the honor of creating a variety of
@@ -63,13 +63,13 @@ const InternshipData = () => {
             <span className="text-blue-200 text-xl">
               Product <span className="text-xl text-orange-300">Intern</span>
             </span>
-            <span className="ml-auto flex gap-x-1">
+            <span className="ml-auto flex text-white gap-x-1">
               <Calendar /> September 1, 2022 - October 15, 2022
             </span>
           </div>
         </div>
 
-        <div className="mt-3 ml-8 w-[70%] text-xl text-justify">
+        <div className="mt-3 ml-8 w-[70%] text-xl text-white text-justify">
           During my tenure, I was entrusted with managing four projects, two of
           which were EdTech web projects, one was an EdTech mobile app project,
           and the fourth was a universal Web Portal that offered multiple
