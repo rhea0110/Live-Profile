@@ -134,7 +134,7 @@ const Trainings = () => {
             </span>
             <span className="text-blue-200 flex text-white flex-wrap text-xl"></span>
             <span className="ml-auto text-white flex gap-x-1">
-              <Calendar /> April, 2022
+              <Calendar /> September, 2021
             </span>
           </div>
         </div>
