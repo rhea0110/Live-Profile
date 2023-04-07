@@ -33,7 +33,7 @@ const Trainings = () => {
             <CodeArrow />{" "}
             <span className="text-blue-200 font-bold text-xl">
               {" "}
-              SuperCoder's Specialization Training{" "}
+              SuperCoder{"'"}s Specialization Training{" "}
             </span>
             <span className="text-blue-200 flex text-white flex-wrap text-xl"></span>
             <span className="ml-auto text-white flex gap-x-1">
@@ -66,7 +66,7 @@ const Trainings = () => {
             <CodeArrow />{" "}
             <span className="text-blue-200 font-bold text-xl">
               {" "}
-              SuperCoder's Training{" "}
+              SuperCoder{"'"}s Training{" "}
             </span>
             <span className="text-blue-200 flex text-white flex-wrap text-xl"></span>
             <span className="ml-auto text-white flex gap-x-1">
@@ -76,7 +76,7 @@ const Trainings = () => {
         </div>
         <div className="mt-3 ml-8 w-[70%] text-white text-xl text-justify mb-16">
           <div>
-    Successfully attending a full stack web development beginner's 
+    Successfully attending a full stack web development beginner{"'"}s 
        training was an impressive accomplishment that demonstrated my dedication 
        to learning new skills and advancing my career in web development.
           </div>
